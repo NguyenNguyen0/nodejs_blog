@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const SiteController = require("../app/controller/SiteController")
+const SiteController = require("../app/controllers/SiteController")
 
 router.use("/search", SiteController.search);
 router.use("/", SiteController.index);
